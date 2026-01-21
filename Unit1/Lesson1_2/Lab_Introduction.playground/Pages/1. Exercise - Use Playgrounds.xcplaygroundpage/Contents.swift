@@ -10,14 +10,14 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("This December by Ricky Montgomery")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print("Only in my darkest moments can I see the light")
+print("I think I'm prone to getting blinded when it's bright")
+print("Well, this December, I'll remember")
 /*:
 
  _Copyright © 2023 Apple Inc._
