@@ -17,6 +17,20 @@
  */
 let currentHR = 128
 
+switch currentHR {
+case 100...120:
+    print("You are in the very light zone. Activity in this zone helps with recovery")
+case 121...140:
+    print("You are in the light zone. Activity in this zone helps improve basic endurence and fat burning")
+case 141...160:
+    print("You are in the moderate zone. Activity in this zone helps improve aerobic fitness")
+case 161...180:
+    print("You are in the hard zone. Activity in this zone increases maximum preformence capacity for shorter sessions")
+case 181...200:
+    print("You are in the maximum zone. Activity helps fit athletes develop speed")
+default:
+    print("Warning! Your heart rate is outside of the recommended zones. Please slow down")
+}
 /*:
 [Previous](@previous)  |  page 7 of 9  |  [Next: Exercise - Ternary Operator](@next)
  */
