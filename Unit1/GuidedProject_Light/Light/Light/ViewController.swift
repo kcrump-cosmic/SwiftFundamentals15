@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // @IBOutlet var lightButton: UIButton!
     
     var lightOn = true
     
