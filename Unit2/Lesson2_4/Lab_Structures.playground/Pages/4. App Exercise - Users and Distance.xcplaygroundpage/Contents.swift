@@ -16,7 +16,7 @@ struct User {
 //:  Create a variable instance of `User` and call it your name. Use the memberwise initializer to pass in information about yourself. Then print out a description of your `User` instance using the instance's properties.
 
 var yourName = User(username: "kcrump-cosmic", age: 19, height: 175, weight: 108, activityLevel: 6)
-print("\(yourName.username), \(yourName.age), with a height of \(yourName.height) cm and a weight of \(yourName.weight) kg has an activity level of \(yourName.activityLevel)")
+print("\(yourName.username),is \(yourName.age), with a height of \(yourName.height) cm and a weight of \(yourName.weight) kg has an activity level of \(yourName.activityLevel)")
 /*:
  In previous app exercises, you've worked with distance in the fitness tracking app example as a simple number. However, distance can be represented using a variety of units of measurement. Create a `Distance` struct that will represent distance in various units of measurement. At a minimum, it should have a `meters` property and a `feet` property. Create a custom initializer corresponding to each property (i.e. if you only have the two properties for meters and feet you will then have two initializers) that will take in a distance in one unit of measurement and assign the correct value to both units of measurements. Hint: *1 meter = 3.28084 feet*.
 
@@ -45,7 +45,7 @@ let mile = Distance(meters: 1600)
 print(mile.feet)
 //:  Now create another instance of `Distance` and give it some other distance. Ensure that both properties are set correctly.
 
-let otherDistance = Distance(feet: 6)
+let otherDistance = Distance(feet: 3.28084)
 print(otherDistance.meters)
 /*:
 [Previous](@previous)  |  page 4 of 10  |  [Next: Exercise - Methods](@next)
