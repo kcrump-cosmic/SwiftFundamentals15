@@ -100,6 +100,7 @@ print(falcon.position)
 sameShip.moveLeft()
 print(sameShip.position)
 print(falcon.position)
+// yea they both change 
 
 /*:
  _Copyright © 2023 Apple Inc._
