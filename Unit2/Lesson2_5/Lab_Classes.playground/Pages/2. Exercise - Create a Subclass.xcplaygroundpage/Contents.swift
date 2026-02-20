@@ -51,7 +51,16 @@ print(destroyer.position)
 //becuase falcon is not in the scope nor is it part of the fighter class
 //:  Add a method to `fighter` called `fire()`. This should check to see if `remainingFirePower` is greater than 0, and if so, should decrement `remainingFirePower` by one. If `remainingFirePower` is not greater than 0, print "You have no more fire power." Call `fire()` on `destroyer` a few times and print `remainingFirePower` after each method call.
 
-
+destroyer.fire()
+print(destroyer.remainingFirePower)
+destroyer.fire()
+print(destroyer.remainingFirePower)
+destroyer.fire()
+print(destroyer.remainingFirePower)
+destroyer.fire()
+print(destroyer.remainingFirePower)
+destroyer.fire()
+print(destroyer.remainingFirePower)
 /*:
 [Previous](@previous)  |  page 2 of 4  |  [Next: Exercise - Override Methods and Properties](@next)
  */
