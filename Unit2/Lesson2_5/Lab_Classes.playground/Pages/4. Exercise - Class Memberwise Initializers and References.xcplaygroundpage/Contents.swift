@@ -100,6 +100,7 @@ print(falcon.position)
 sameShip.moveLeft()
 print(sameShip.position)
 print(falcon.position)
+// yea they both change 
 
 
 /*:
